@@ -14,6 +14,12 @@ const Gallery = () => {
       title: "Profile Picture",
       description: "Professional headshot"
     },
+     {
+      id: 1,
+      src: "/lovable-uploads/159c49f6-31da-4a84-832b-09494ff7a89a.png",
+      title: "Profile Picture",
+      description: "Professional headshot"
+    }
     // Add more images as needed
   ];
 
