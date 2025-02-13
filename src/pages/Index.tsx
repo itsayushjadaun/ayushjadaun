@@ -16,9 +16,19 @@ const Index = () => {
       <div className="min-h-screen bg-background text-foreground">
         <header className="fixed top-0 w-full z-50 glass">
           <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href={`mailto:${portfolioData.personal.email}`} className="text-sm hover:opacity-75 transition-opacity">
-              {portfolioData.personal.email}
-            </a>
+            <div className="flex items-center gap-8">
+              <a href={`mailto:${portfolioData.personal.email}`} className="text-sm hover:opacity-75 transition-opacity">
+                {portfolioData.personal.email}
+              </a>
+              <div className="hidden md:flex gap-6">
+                <a href="/" className="nav-link active">Home</a>
+                <a href="/about" className="nav-link">About</a>
+                <a href="/experience" className="nav-link">Experience</a>
+                <a href="/projects" className="nav-link">Projects</a>
+                <a href="/skills" className="nav-link">Skills</a>
+                <a href="/contact" className="nav-link">Contact</a>
+              </div>
+            </div>
             <div className="flex items-center gap-6">
               <ThemeToggle />
               <div className="flex gap-4">
@@ -27,9 +37,6 @@ const Index = () => {
                 </a>
                 <a href={portfolioData.personal.social.github} target="_blank" rel="noopener noreferrer">
                   <Github className="w-5 h-5 hover:opacity-75 transition-opacity" />
-                </a>
-                <a href={portfolioData.personal.social.instagram} target="_blank" rel="noopener noreferrer">
-                  <Instagram className="w-5 h-5 hover:opacity-75 transition-opacity" />
                 </a>
               </div>
             </div>
@@ -48,50 +55,30 @@ const Index = () => {
                 <h1 className="text-4xl md:text-6xl font-bold max-w-3xl mx-auto mb-8">
                   {portfolioData.personal.title}
                 </h1>
+                <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
+                  {portfolioData.personal.summary}
+                </p>
                 <a
-                  href="#contact"
+                  href="/projects"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full hover:opacity-90 transition-opacity"
                 >
-                  Latest Work
+                  View Projects
                   <ExternalLink className="w-4 h-4" />
                 </a>
               </div>
             </ScrollAnimation>
 
             <ScrollAnimation className="fade-in">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-12 items-center justify-items-center opacity-60">
-                {portfolioData.companies.map((company) => (
-                  <div key={company.name} className="w-32">
-                    <img src={company.logo} alt={company.name} className="w-full h-auto" />
-                  </div>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                {portfolioData.skills.frameworks.slice(0, 4).map((skill, index) => (
+                  <ScrollAnimation key={skill} className="slide-up" delay={index}>
+                    <div className="glass p-6 rounded-2xl h-full">
+                      <h3 className="text-xl font-semibold mb-2">{skill}</h3>
+                    </div>
+                  </ScrollAnimation>
                 ))}
               </div>
             </ScrollAnimation>
-          </section>
-
-          <section className="container mx-auto px-6 py-20">
-            <ScrollAnimation>
-              <h2 className="text-3xl md:text-4xl font-bold text-center mb-20">
-                Collaborate with brands and agencies<br />
-                to create impactful results.
-              </h2>
-            </ScrollAnimation>
-
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {portfolioData.services.map((service, index) => (
-                <ScrollAnimation key={service.title} className="slide-up" style={{ transitionDelay: `${index * 100}ms` }}>
-                  <div className="glass p-6 rounded-2xl h-full">
-                    <div className="mb-4">
-                      <div className="w-12 h-12 rounded-full bg-foreground/10 flex items-center justify-center mb-6">
-                        <img src={`/icons/${service.icon}.svg`} alt={service.title} className="w-6 h-6" />
-                      </div>
-                      <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-                      <p className="text-muted-foreground">{service.description}</p>
-                    </div>
-                  </div>
-                </ScrollAnimation>
-              ))}
-            </div>
           </section>
         </main>
       </div>

@@ -1,54 +1,95 @@
 
 {
   "personal": {
-    "name": "Developer Name",
-    "title": "Building digital products, brands, and experience.",
-    "email": "youremail@example.com",
-    "image": "/lovable-uploads/0e6d638f-36b3-4634-9a4f-d234d2cd3f03.png",
+    "name": "Ayush Jadaun",
+    "title": "Building scalable systems and optimized solutions.",
+    "email": "jadaunayush3@gmail.com",
+    "location": "Kumher, Bharatpur, Rajasthan",
+    "phone": "8824405590",
+    "image": "/lovable-uploads/159c49f6-31da-4a84-832b-09494ff7a89a.png",
+    "summary": "Experienced Backend Developer with expertise in scalable systems architecture, API optimization, and database management. Over 1+ years of experience working with Node.js, Golang, SQL, and MongoDB. Proven track record of reducing operational costs and improving processing efficiency by 30-50% through microservices and automated workflows.",
     "social": {
-      "linkedin": "https://linkedin.com/in/yourusername",
-      "github": "https://github.com/yourusername",
-      "instagram": "https://instagram.com/yourusername"
+      "linkedin": "https://linkedin.com/in/ayush-jadaun-40706a1b1",
+      "github": "https://github.com/itsayushjadaun"
     }
   },
-  "companies": [
+  "skills": {
+    "languages": ["Node.js (Advanced)", "Golang (Advanced)", "Python", "C++", "JavaScript", "TypeScript"],
+    "frameworks": ["NestJS", "Express.js", "Fiber", "React.js", "REST APIs", "Microservices"],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+    "devops": ["Docker", "Kubernetes", "Git", "CI/CD", "AWS", "WebSocket", "Jenkins"]
+  },
+  "experience": [
     {
-      "name": "National Bank",
-      "logo": "/companies/national-bank.svg"
-    },
-    {
-      "name": "Adobe",
-      "logo": "/companies/adobe.svg"
-    },
-    {
-      "name": "Subway",
-      "logo": "/companies/subway.svg"
-    },
-    {
-      "name": "CodeAcademy",
-      "logo": "/companies/codeacademy.svg"
+      "title": "Backend Developer (Node.js & Golang)",
+      "company": "Novel Veritas Pvt. Ltd. (Now Hoicko Pvt. Ltd.)",
+      "location": "Bharatpur, India",
+      "duration": "Aug 2023 – Present",
+      "achievements": [
+        "Developed a custom HRMS using Node.js, NestJS, MongoDB, and PostgreSQL, reducing admin workload by 30%",
+        "Built and deployed a form microservice on AWS, automating data entry, saving 5+ hours weekly",
+        "Integrated Razorpay payment gateway with Golang/Fiber, improving payment processing by 40%",
+        "Designed a JWT-authenticated user management system, reducing latency by 35%",
+        "Automated production tracking processes using Golang and Redis, improving productivity by 50%"
+      ]
     }
   ],
-  "services": [
+  "education": {
+    "degree": "Bachelor of Technology (B.Tech)",
+    "field": "Electronics & Communication Engineering",
+    "school": "Government Engineering College, Ajmer",
+    "duration": "May 2019 – July 2023",
+    "gpa": "7.9"
+  },
+  "projects": [
     {
-      "title": "UX & UI",
-      "description": "Designing interfaces that are intuitive, efficient, and enjoyable.",
-      "icon": "palette"
+      "title": "Netflix Clone App",
+      "description": "Developed a responsive Netflix clone using React.js and RESTful API, focusing on UI/UX optimization and data retrieval efficiency.",
+      "year": "2022",
+      "technologies": ["React.js", "REST API", "UI/UX Design"]
     },
     {
-      "title": "Web & Mobile App",
-      "description": "Transforming ideas into exceptional user experiences.",
-      "icon": "smartphone"
-    },
-    {
-      "title": "Design & Creative",
-      "description": "Crafting visually stunning designs that connect with users.",
-      "icon": "pen-tool"
-    },
-    {
-      "title": "Development",
-      "description": "Bringing your vision to life with the latest technology and best practices.",
-      "icon": "code"
+      "title": "SQL Database Chatbot",
+      "description": "Created a chatbot with SQL database integration, reducing query resolution time by 20% and improving support team productivity.",
+      "year": "2021",
+      "technologies": ["SQL", "Chatbot", "Database Integration"]
     }
-  ]
+  ],
+  "certifications": [
+    {
+      "title": "C++ Programming",
+      "issuer": "Udemy",
+      "description": "Advanced techniques in C++ for software development"
+    },
+    {
+      "title": "Full-Stack Web Development",
+      "issuer": "Coursera",
+      "description": "Training on front-end & back-end development"
+    },
+    {
+      "title": "Data Structures & Algorithms",
+      "issuer": "Coursera",
+      "description": "Problem-solving strategies"
+    },
+    {
+      "title": "Python and Machine Learning",
+      "issuer": "Coursera",
+      "description": "Machine learning models & data processing"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Hindi",
+      "level": "Full Professional Proficiency"
+    },
+    {
+      "name": "English",
+      "level": "Full Professional Proficiency"
+    }
+  ],
+  "achievements": [
+    "Solved 100+ problems on LeetCode and 150+ on Coding Ninjas",
+    "Expertise in data structures & algorithms"
+  ],
+  "interests": ["Cricket", "Traveling", "Poetry", "Music"]
 }

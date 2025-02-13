@@ -4,9 +4,10 @@ import React, { useEffect, useRef } from 'react';
 interface ScrollAnimationProps {
   children: React.ReactNode;
   className?: string;
+  delay?: number;
 }
 
-const ScrollAnimation: React.FC<ScrollAnimationProps> = ({ children, className = 'slide-up' }) => {
+const ScrollAnimation: React.FC<ScrollAnimationProps> = ({ children, className = 'slide-up', delay = 0 }) => {
   const elementRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -35,7 +36,10 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({ children, className =
   }, []);
 
   return (
-    <div ref={elementRef} className={className}>
+    <div 
+      ref={elementRef} 
+      className={`${className} animation-delay-${delay}`}
+    >
       {children}
     </div>
   );
