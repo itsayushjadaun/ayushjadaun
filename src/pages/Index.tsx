@@ -117,28 +117,29 @@ const Index = () => {
                   <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
                     {portfolioData.personal.summary}
                   </p>
-             <button
-                onClick={() => scrollToSection('projects')}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full hover:opacity-90 transition-opacity"
-                >
-                View Projects
-                <ExternalLink className="w-4 h-4" />
-            </button>
+<button
+  onClick={() => scrollToSection('projects')}
+  className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full hover:opacity-90 transition-opacity"
+>
+  View Projects
+  <ExternalLink className="w-4 h-4" />
+</button>
 
-            <button
-                onClick={() => window.location.href = 'https://preview--darkmode-portfolio.lovable.app/blog'}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full hover:opacity-90 transition-opacity"
-                >
-                View Blog
-                <ExternalLink className="w-4 h-4" />
-            </button>
-            <button
-                onClick={() => window.location.href = 'https://preview--darkmode-portfolio.lovable.app/Gallery'}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full hover:opacity-90 transition-opacity"
-                >
-                View Gallery
-                <ExternalLink className="w-4 h-4" />
-            </button>
+<button
+  onClick={() => window.location.href = 'https://preview--darkmode-portfolio.lovable.app/blog'}
+  className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full hover:opacity-90 transition-opacity"
+>
+  View Blog
+  <ExternalLink className="w-4 h-4" />
+</button>
+<button
+  onClick={() => window.location.href = 'https://preview--darkmode-portfolio.lovable.app/Gallery'}
+  className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full hover:opacity-90 transition-opacity"
+>
+  View Gallery
+  <ExternalLink className="w-4 h-4" />
+</button>
+
                 </div>
               </ScrollAnimation>
 
