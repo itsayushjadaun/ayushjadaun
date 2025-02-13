@@ -132,6 +132,13 @@ const Index = () => {
   View Blog
   <ExternalLink className="w-4 h-4" />
 </button>
+<button
+  onClick={() => window.location.href = 'https://preview--darkmode-portfolio.lovable.app/Gallery'}
+  className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full hover:opacity-90 transition-opacity"
+>
+  View Gallery
+  <ExternalLink className="w-4 h-4" />
+</button>
 
                 </div>
               </ScrollAnimation>
