@@ -35,7 +35,43 @@ const Blog = () => {
     → Monitoring and Observability
     → Simulation
     → Vertical Agents`,
-  }
+  },
+{
+    id: 2,
+    title: "Mastering TypeScript: Tips and Best Practices",
+    date: "2025-01-20",
+    image: "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+    excerpt: "Discover essential TypeScript techniques for writing clean and scalable code.",
+    content: `TypeScript offers static typing, better code organization, and enhanced tooling support. 
+    In this post, we’ll explore the best practices for working with TypeScript, including strict typing, interfaces, utility types, and error handling strategies...`,
+  },
+  {
+    id: 3,
+    title: "Building Scalable APIs with NestJS",
+    date: "2025-02-05",
+    image: "https://images.unsplash.com/photo-1551836022-deb5e9f0be30",
+    excerpt: "Learn how to develop high-performance, maintainable APIs using NestJS.",
+    content: `NestJS is a progressive Node.js framework that helps developers build efficient and scalable APIs. 
+    This guide covers module organization, dependency injection, database integration with TypeORM, and real-world examples of structuring a NestJS project for production...`,
+  },
+  {
+    id: 4,
+    title: "The Rise of AI in Healthcare",
+    date: "2025-02-10",
+    image: "https://images.unsplash.com/photo-1605379399642-870262d3d051",
+    excerpt: "How artificial intelligence is transforming the healthcare industry.",
+    content: `AI is playing a critical role in healthcare, from diagnostics and personalized medicine to robotic surgery and predictive analytics. 
+    In this article, we’ll dive into the latest AI advancements, ethical concerns, and future prospects in the medical field...`,
+  },
+  {
+    id: 5,
+    title: "Optimizing Web Performance in 2025",
+    date: "2025-01-28",
+    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    excerpt: "Speed matters! Learn how to optimize your website for better performance.",
+    content: `Website performance is crucial for user experience and SEO rankings. 
+    This post explores modern optimization techniques such as lazy loading, efficient caching strategies, CDNs, and advanced image formats like AVIF and WebP...`,
+  },
 ];
 
 
