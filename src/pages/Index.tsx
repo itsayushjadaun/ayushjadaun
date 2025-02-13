@@ -328,3 +328,5 @@ const Index = () => {
     </ThemeProvider>
   );
 };
+
+export default Index;
