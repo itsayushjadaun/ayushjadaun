@@ -1,0 +1,54 @@
+
+{
+  "personal": {
+    "name": "Developer Name",
+    "title": "Building digital products, brands, and experience.",
+    "email": "youremail@example.com",
+    "image": "/lovable-uploads/0e6d638f-36b3-4634-9a4f-d234d2cd3f03.png",
+    "social": {
+      "linkedin": "https://linkedin.com/in/yourusername",
+      "github": "https://github.com/yourusername",
+      "instagram": "https://instagram.com/yourusername"
+    }
+  },
+  "companies": [
+    {
+      "name": "National Bank",
+      "logo": "/companies/national-bank.svg"
+    },
+    {
+      "name": "Adobe",
+      "logo": "/companies/adobe.svg"
+    },
+    {
+      "name": "Subway",
+      "logo": "/companies/subway.svg"
+    },
+    {
+      "name": "CodeAcademy",
+      "logo": "/companies/codeacademy.svg"
+    }
+  ],
+  "services": [
+    {
+      "title": "UX & UI",
+      "description": "Designing interfaces that are intuitive, efficient, and enjoyable.",
+      "icon": "palette"
+    },
+    {
+      "title": "Web & Mobile App",
+      "description": "Transforming ideas into exceptional user experiences.",
+      "icon": "smartphone"
+    },
+    {
+      "title": "Design & Creative",
+      "description": "Crafting visually stunning designs that connect with users.",
+      "icon": "pen-tool"
+    },
+    {
+      "title": "Development",
+      "description": "Bringing your vision to life with the latest technology and best practices.",
+      "icon": "code"
+    }
+  ]
+}
