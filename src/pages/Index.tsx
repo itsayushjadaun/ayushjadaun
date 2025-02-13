@@ -5,6 +5,7 @@ import ScrollAnimation from '@/components/ScrollAnimation';
 import portfolioData from '@/data/portfolio.json';
 import { Github, Instagram, Linkedin, ExternalLink, Menu, X } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,6 +51,8 @@ const Index = () => {
                     {section.label}
                   </button>
                 ))}
+                <Link to="/gallery" className="nav-link">Gallery</Link>
+                <Link to="/blog" className="nav-link">Blog</Link>
               </div>
             </div>
             <div className="flex items-center gap-6">
