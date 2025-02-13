@@ -17,6 +17,14 @@ const Blog = () => {
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
+      id: 3,
+      title: "Getting Started with Backend Development",
+      date: "2024-03-15",
+      image: "/lovable-uploads/159c49f6-31da-4a84-832b-09494ff7a89a.png",
+      excerpt: "My journey into backend development and how I got started with Node.js and Golang.",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
       id: 2,
       title: "The Open-Source Toolkit for Building AI Agents",
       date: "2025-02-15",
