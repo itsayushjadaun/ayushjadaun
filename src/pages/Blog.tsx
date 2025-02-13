@@ -23,27 +23,23 @@ const Blog = () => {
       image: "/https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9d163d4c-73d3-4cab-b150-956c0cd6f49e_2174x1210.png",
       excerpt: "Welcome to a new post in the AI Agents Series - helping AI developers and researchers deploy and make sense of the next step in AI.",
       content: "form for an agent-first future - from websites optimizing for AI interaction through "agent-responsive design" to the emergence of Agent Engine Optimization (AEO) as the next SEO. We saw how tech giants like Google, Apple, OpenAI, and Anthropic are racing to define this next evolution of digital interaction, with Gartner projecting that by 2028, 33% of enterprise software applications will include agentic AI.
-    In this post, I'll outline a curated, though non-exhaustive, overview of the open-source ecosystem for developers creating these AI agents. While numerous market maps exist for AI agents, they often cater more to venture capitalists than builders. Developers need actionable tools and frameworks to launch functional AI agents today.
+      In this post, I'll outline a curated, though non-exhaustive, overview of the open-source ecosystem for developers creating these AI agents. While numerous market maps exist for AI agents, they often cater more to venture capitalists than builders. Developers need actionable tools and frameworks to launch functional AI agents today.
 
-Which tools do other builders rely on to develop voice agents? What’s the leading open model for document understanding? With new packages emerging almost daily, I’ll focus solely on the libraries I’ve personally found most effective. This list is, therefore, intentionally selective rather than exhaustive.
-
-Every package included here supports commercial use and has a permissive open-source license.
-
-With the holiday season coming, there's no better time to dive into these tools and start building.
-
-Categories covered in this piece:
-→ Frameworks for Building and Orchestrating Agents
-→ Computer and Browser Use
-→ Voice
-→ Document Understanding
-→ Memory
-→ Testing and Evaluation
-→ Monitoring and Observability
-→ Simulation
-→ Vertical Agents "
-    },
-    // Add more blog posts as needed
-  ];
+    Which tools do other builders rely on to develop voice agents? What’s the leading open model for document understanding? With new packages emerging almost daily, I’ll focus solely on the libraries I’ve personally found most effective. This list is, therefore, intentionally selective rather than exhaustive.
+    Every package included here supports commercial use and has a permissive open-source license.
+    With the holiday season coming, there's no better time to dive into these tools and start building.
+    Categories covered in this piece:
+    → Frameworks for Building and Orchestrating Agents
+    → Computer and Browser Use
+    → Voice
+    → Document Understanding  
+    → Memory
+    → Testing and Evaluation
+    → Monitoring and Observability
+    → Simulation
+    → Vertical Agents "
+    }
+];
 
   return (
     <ThemeProvider defaultTheme="dark" attribute="class">
